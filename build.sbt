@@ -124,7 +124,8 @@ lazy val server = project
       "org.webjars.bower" % "font-awesome" % "4.6.3",
       "org.webjars.bower" % "jQuery" % "2.2.4",
       "org.webjars.bower" % "select2" % "4.0.3",
-      "com.lihaoyi" %%% "scalatags" % scalatagsVersion
+      "com.lihaoyi" %%% "scalatags" % scalatagsVersion,
+      "com.danielasfregola" %% "twitter4s" % "5.2"
     ),
     packageBin in Universal := (packageBin in Universal)
       .dependsOn(WebKeys.assets in Assets)
